@@ -12,9 +12,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://jcrlabz.github.io/Sanskriber/"
+    "url": "https://github.com/JCRLabz/Sanskriber"
   },
-  "homepage": "https://jcrlabz.github.io/Sanskriber/",
+  "homepage": "https://github.com/JCRLabz/Sanskriber",
   "engines": {
     "vscode": "^1.85.0"
   },
