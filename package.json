@@ -12,9 +12,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ramaseshanr/sanskrit-transliterate"
+    "url": "https://jcrlabz.github.io/Sanskriber/"
   },
-  "homepage": "https://github.com/ramaseshanr/sanskrit-transliterate#readme",
+  "homepage": "https://jcrlabz.github.io/Sanskriber/",
   "engines": {
     "vscode": "^1.85.0"
   },
