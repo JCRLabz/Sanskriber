@@ -1,33 +1,65 @@
-# Sanskrit Transliteration Extension
 
-Real-time transliteration from Harvard-Kyoto romanization to Devanagari script.
+## 📋 Requirements
 
-## Features
+- Visual Studio Code version 1.85.0 or higher
+- No additional dependencies required for users
 
-- **Real-time transliteration**: Type Sanskrit in Harvard-Kyoto and see it convert to Devanagari automatically
-- **Manual mode**: Select text and press Ctrl+Shift+S to transliterate
-- **Supports Harvard-Kyoto scheme**: Full support for all Sanskrit characters
+## 🐛 Known Issues
 
-## Usage
+- Real-time transliteration may have a slight delay on very large files
+- Custom file extensions (`.san`, `.sanskrit`) require explicit language mode selection in some cases
 
-1. Open any `.txt` or markdown file
-2. Type Sanskrit using Harvard-Kyoto transliteration (e.g., `namaste`)
-3. Press space, and it converts to Devanagari (नमस्ते)
+## 🗺️ Roadmap
 
-## Harvard-Kyoto Quick Reference
+- [ ] Add support for IAST and ITRANS schemes
+- [ ] Configuration options for auto-transliteration toggle
+- [ ] Support for bidirectional transliteration (Devanagari to Harvard-Kyoto)
+- ...
 
-- Vowels: `a A i I u U R RR e ai o au`
-- Consonants: `k kh g gh G` (velar), `c ch j jh J` (palatal), etc.
-- Retroflex: `T Th D Dh N`
-- Sibilants: `z S s`
+## 📝 Version History
 
-## Examples
+### Version 0.1.0 (Initial Release)
+- ✅ Real-time Harvard-Kyoto to Devanagari transliteration
+- ✅ Manual transliteration command
+- ✅ Support for `.txt`, `.md`, `.san`, `.sanskrit` files
+- ✅ Keyboard shortcut (`Ctrl+Shift+S`)
+- ✅ Status bar indicator
+- ✅ Performance-optimized activation
 
-- `namaste` → नमस्ते
-- `dharma` → धर्म
-- `kRSNa` → कृष्ण
-- `rAma` → राम
+## 🤝 Contributing
 
-## Keyboard Shortcut
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- **Ctrl+Shift+S** (Cmd+Shift+S on Mac): Transliterate selected text
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Built with [@indic-transliteration/sanscript](https://www.npmjs.com/package/@indic-transliteration/sanscript) library
+- Harvard-Kyoto transliteration scheme documentation
+- VS Code Extension API
+
+## 📧 Contact
+
+Your Name - ramaseshanr@gmail.com
+
+Project Link: [https://github.com/ramaseshan/sanskriber](https://github.com/ramaseshanr/sanskriber)
+
+## 💡 Support
+
+If you find this extension useful, please consider:
+- ⭐ Starring the repository
+- 🐛 Reporting issues
+- 📝 Contributing improvements
+- 📢 Sharing with others interested in Sanskrit
+
+---
+
+**Made with ❤️ for Sanskrit enthusiasts and scholars**
