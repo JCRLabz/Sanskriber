@@ -48,7 +48,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - ramaseshanr@gmail.com
+Ramaseshan Ramachandran(Ramaseshanr at gmail.com)
 
 Project Link: [https://github.com/ramaseshan/sanskriber](https://github.com/ramaseshanr/sanskriber)
 
