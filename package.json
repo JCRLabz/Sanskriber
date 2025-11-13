@@ -14,9 +14,6 @@
     "type": "git",
     "url": "https://github.com/ramaseshanr/sanskrit-transliterate"
   },
-  "bugs": {
-    "url": "https://github.com/ramaseshanr/sanskrit-transliterate/issues"
-  },
   "homepage": "https://github.com/ramaseshanr/sanskrit-transliterate#readme",
   "engines": {
     "vscode": "^1.85.0"
