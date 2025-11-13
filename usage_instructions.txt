@@ -1,0 +1,15 @@
+# 1. Save this as package.json in your project root
+# 2. Install dependencies
+npm install
+
+# 3. Compile TypeScript
+npm run compile
+
+# 4. Test in development
+# Press F5 in VS Code
+
+# 5. Package for installation
+npm run package
+
+# 6. Install the generated .vsix file
+code --install-extension sanskrit-transliterate-0.1.0.vsix

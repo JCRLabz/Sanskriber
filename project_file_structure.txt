@@ -1,0 +1,13 @@
+SansTranliterator/
+├── src/
+│   └── extension.ts
+├── out/
+│   └── extension.js
+├── node_modules/
+├── package.json               ← Updated with license field
+├── LICENSE                    ← Add this file
+├── tsconfig.json
+├── language-configuration.json
+├── README.md
+└── .vscode/
+    └── launch.json

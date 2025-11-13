@@ -1,0 +1,120 @@
+{
+  "name": "sanskrit-transliterate",
+  "icon": "images/icon.png",
+  "displayName": "Sanskrit Transliteration",
+  "description": "Real-time Harvard-Kyoto to Devanagari transliteration for Sanskrit",
+  "version": "0.1.0",
+  "publisher": "ramaseshanr",
+  "author": {
+    "name": "Ramaseshan Ramachandran",
+    "email": "ramaseshanr@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramaseshanr/sanskrit-transliterate"
+  },
+  "bugs": {
+    "url": "https://github.com/ramaseshanr/sanskrit-transliterate/issues"
+  },
+  "homepage": "https://github.com/ramaseshanr/sanskrit-transliterate#readme",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Language Packs"
+  ],
+  "keywords": [
+    "sanskrit",
+    "transliteration",
+    "devanagari",
+    "harvard-kyoto",
+    "indic",
+    "input-method"
+  ],
+  "activationEvents": [
+    "onLanguage:plaintext",
+    "onLanguage:markdown",
+    "onLanguage:sanskrit",
+    "onCommand:sanskritTransliterate.convertSelection"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "sanskrit",
+        "aliases": [
+          "Sanskrit",
+          "sanskrit"
+        ],
+        "extensions": [
+          ".san",
+          ".sanskrit"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "sanskritTransliterate.convertSelection",
+        "title": "Sanskrit: Transliterate Selection",
+        "category": "Sanskrit"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "sanskritTransliterate.convertSelection",
+        "key": "ctrl+shift+s",
+        "mac": "cmd+shift+s",
+        "when": "editorTextFocus"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Sanskrit Transliteration",
+      "properties": {
+        "sanskritTransliterate.autoTransliterate": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable automatic transliteration on space/punctuation"
+        },
+        "sanskritTransliterate.scheme": {
+          "type": "string",
+          "default": "hk",
+          "enum": [
+            "hk",
+            "iast",
+            "itrans"
+          ],
+          "enumDescriptions": [
+            "Harvard-Kyoto (R for ṛ, capital letters)",
+            "IAST (International Alphabet of Sanskrit Transliteration)",
+            "ITRANS (Indian languages transliteration)"
+          ],
+          "description": "Transliteration scheme to use"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^24.10.1",
+    "typescript": "^5.3.0",
+    "@vscode/vsce": "^3.7.0"
+  },
+  "dependencies": {
+    "@indic-transliteration/sanscript": "*"
+  },
+  "overrides": {
+    "glob": "^10.0.0"
+  }
+}
