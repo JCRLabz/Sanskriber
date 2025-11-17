@@ -48,7 +48,7 @@ export function activate(context: vscode.ExtensionContext) {
 
         event.contentChanges.forEach(change => {
             // Trigger on space, newline, or punctuation
-            if (change.text === ' ' || change.text === '\n' || /[.,;!?]/.test(change.text)) {
+            if (change.text === ' ' || change.text === '\n' || /[.,;!?|]/.test(change.text)) {
                 const position = change.range.start;
                 const line = editor.document.lineAt(position.line);
                 

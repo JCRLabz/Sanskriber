@@ -11,7 +11,7 @@
 
 ## 🗺️ Roadmap
 
-- [ ] Add support for IAST and ITRANS schemes
+- [ ] Add support for Baraha schemes
 - [ ] Configuration options for auto-transliteration toggle
 - [ ] Support for bidirectional transliteration (Devanagari to Harvard-Kyoto)
 - ...
@@ -19,21 +19,27 @@
 ## 📝 Version History
 
 ### Version 0.1.0 (Initial Release)
-- ✅ Real-time Harvard-Kyoto to Devanagari transliteration
 - ✅ Manual transliteration command
 - ✅ Support for `.txt`, `.md`, `.san`, `.sanskrit` files
 - ✅ Keyboard shortcut (`Ctrl+Shift+S`)
 - ✅ Status bar indicator
-- ✅ Performance-optimized activation
+- ✅ Performance-optimized 
+
+### Version 0.1.8(missed updating readme :( for other versions)
+
+- ✅ Real-time Harvard-Kyoto to Devanagari transliteration
+- ✅ Auto translation when any of the character is typed - ['\n' , . ,  ; ! ? |]  
+- ✅ IAST and ITRANS
+
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+2. Create your feature branch (`git checkout -b feature/<AmazingFeature>`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
+4. Push to the branch (`git push origin feature/<AmazingFeature>`)
 5. Open a Pull Request
 
 ## 📄 License
@@ -50,7 +56,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Ramaseshan Ramachandran(Ramaseshanr at gmail.com)
 
-Project Link: [https://github.com/ramaseshan/sanskriber](https://github.com/ramaseshanr/sanskriber)
+Project Link: [https://github.com/jarlabz/sanskriber](https://github.com/jcrlabz/sanskriber)
 
 ## 💡 Support
 
