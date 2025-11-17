@@ -75,7 +75,7 @@ function activate(context) {
             return;
         event.contentChanges.forEach(change => {
             // Trigger on space, newline, or punctuation
-            if (change.text === ' ' || change.text === '\n' || /[.,;!?]/.test(change.text)) {
+            if (change.text === ' ' || change.text === '\n' || /[.,;!?|]/.test(change.text)) {
                 const position = change.range.start;
                 const line = editor.document.lineAt(position.line);
                 // Get the text from the start of the line up to the cursor

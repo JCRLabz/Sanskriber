@@ -25,7 +25,7 @@
 - ✅ Status bar indicator
 - ✅ Performance-optimized 
 
-### Version 0.1.8(missed updating readme :( for other versions)
+### Version 0.1.9 (missed version change)
 
 - ✅ Real-time Harvard-Kyoto to Devanagari transliteration
 - ✅ Auto translation when any of the character is typed - ['\n' , . ,  ; ! ? |]  
