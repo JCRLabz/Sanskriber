@@ -66,7 +66,17 @@
         "mac": "cmd+shift+s",
         "when": "editorTextFocus"
       }
+      
     ],
+    "menus": {   
+        "editor/context": [
+            {
+                "command": "sanskritTransliterate.convertSelection",
+                "when": "editorHasSelection",
+                "group": "modification"
+            }
+        ]
+    },
     "configuration": {
       "type": "object",
       "title": "Sanskrit Transliteration",

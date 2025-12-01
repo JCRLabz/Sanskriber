@@ -31,6 +31,9 @@
 - ✅ Auto translation when any of the character is typed - ['\n' , . ,  ; ! ? |]  
 - ✅ IAST and ITRANS
 
+### Version 0.2.0 (added context menu)
+- Added Context menu to convert the romanized text written in Harvard-Kyoto (HK) transliteration scheme  into sanscrit using the Selected text -> right click -> Sanskrit: Transliterate Selection 
+-shortcut keys  (Windows: <ctrl><shift>S, Mac:<cmd><Shift>S) also transliterates the selected text
 
 ## 🤝 Contributing
 
