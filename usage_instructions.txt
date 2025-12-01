@@ -9,7 +9,7 @@ npm run compile
 # Press F5 in VS Code
 
 # 5. Package for installation
-npm run पच्कगे 
+npm run package 
 
 # 6. Install the generated .vsix file
 code --install-extension sanskrit-transliterate-0.1.0.vsix
