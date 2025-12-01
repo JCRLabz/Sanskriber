@@ -84,6 +84,7 @@ export function activate(context: vscode.ExtensionContext) {
         });
     });
 
+    
     let statusBarItem = vscode.window.createStatusBarItem(
         vscode.StatusBarAlignment.Right,
         100
