@@ -3,7 +3,7 @@
   "icon": "images/icon.png",
   "displayName": "Sanskrit Transliteration",
   "description": "Real-time Harvard-Kyoto to Devanagari transliteration for Sanskrit",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "publisher": "RamaseshanRamachandran",
   "author": {
     "name": "Ramaseshan Ramachandran",
@@ -66,16 +66,15 @@
         "mac": "cmd+shift+s",
         "when": "editorTextFocus"
       }
-      
     ],
-    "menus": {   
-        "editor/context": [
-            {
-                "command": "sanskritTransliterate.convertSelection",
-                "when": "editorHasSelection",
-                "group": "modification"
-            }
-        ]
+    "menus": {
+      "editor/context": [
+        {
+          "command": "sanskritTransliterate.convertSelection",
+          "when": "editorHasSelection",
+          "group": "modification"
+        }
+      ]
     },
     "configuration": {
       "type": "object",
